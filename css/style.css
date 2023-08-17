@@ -44,10 +44,22 @@
 
 /* image post */
 
+.page-background-color {
+    background-color: var(--golden-coffee);
+}
+
 .profile-img {
     background-color: var(--sea-blue);
     height: 400px;
     width: 80%;
+}
+
+.project-card {
+    height: 350px;
+    width: 100%;
+    background-color: var(--sea-blue);
+    margin: 10px;
+    border-radius: 15px;
 }
 
 /* image post */
