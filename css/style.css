@@ -42,6 +42,16 @@
 
 /* nav-bar part */
 
+/* image post */
+
+.profile-img {
+    background-color: var(--sea-blue);
+    height: 400px;
+    width: 80%;
+}
+
+/* image post */
+
 /* generic classes */
 
 .margin-30-top {
