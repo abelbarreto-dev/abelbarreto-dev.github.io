@@ -8,11 +8,17 @@
     font-family: 'Anton', sans-serif;
 }
 
+:root {
+    --golden-coffee: #f07e13;
+    --sea-blue: #002663;
+    --white: #ffffff;
+}
+
 /* nav-bar part */
 
 .nav-control {
     height: 40px;
-    background-color: red;
+    background-color: var(--sea-blue);
 }
 
 .menu-links {
@@ -23,14 +29,14 @@
 .menu-item {
     font-size: 25px;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white);
     margin: auto;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .menu-item:hover {
-    color: gold;
+    color: var(--golden-coffee);
 }
 
 /* nav-bar part */
